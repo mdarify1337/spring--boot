@@ -1,6 +1,10 @@
+com/codewithmosh/store/service/ProductService.class
 com/codewithmosh/store/StoreApplication.class
 com/codewithmosh/store/controllers/ProductController.class
 com/codewithmosh/store/controllers/HomeController.class
 com/codewithmosh/store/controllers/UserController.class
+com/codewithmosh/store/repository/ProductRepository.class
+com/codewithmosh/store/service/UserService.class
 com/codewithmosh/store/models/User.class
 com/codewithmosh/store/models/Product.class
+com/codewithmosh/store/repository/UserRepository.class

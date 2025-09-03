@@ -4,3 +4,7 @@
 /home/ael/Desktop/spring-store/src/main/java/com/codewithmosh/store/controllers/UserController.java
 /home/ael/Desktop/spring-store/src/main/java/com/codewithmosh/store/models/Product.java
 /home/ael/Desktop/spring-store/src/main/java/com/codewithmosh/store/models/User.java
+/home/ael/Desktop/spring-store/src/main/java/com/codewithmosh/store/repository/ProductRepository.java
+/home/ael/Desktop/spring-store/src/main/java/com/codewithmosh/store/repository/UserRepository.java
+/home/ael/Desktop/spring-store/src/main/java/com/codewithmosh/store/service/ProductService.java
+/home/ael/Desktop/spring-store/src/main/java/com/codewithmosh/store/service/UserService.java
