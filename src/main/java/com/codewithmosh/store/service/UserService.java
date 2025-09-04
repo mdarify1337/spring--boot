@@ -16,6 +16,13 @@ public class UserService {
     }
 
     public User createUser(User user) {
+        // if (userRepo.findByEmail(user.getEmail()) != null) {
+        //     throw new RuntimeException("Email already in use");
+        // }
+        if (user.getPassword() == null || 
+            !user.getPassword().equals(user.getConfirmPassword())) {
+            throw new RuntimeException("Passwords do not match");
+        }
         return userRepo.save(user);
     }
 
@@ -32,6 +39,10 @@ public class UserService {
         User user = getUser(id);
         user.setUsername(updatedUser.getUsername());
         user.setEmail(updatedUser.getEmail());
+        user.setPassword(updatedUser.getPassword());
+        user.setConfirmPassword(updatedUser.getConfirmPassword());
+        user.setFirstName(updatedUser.getFirstName());
+        user.setLastName(updatedUser.getLastName());
         return userRepo.save(user);
     }
 
